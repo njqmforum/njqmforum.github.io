@@ -100,7 +100,7 @@ p {
   font-weight: 600;
   color: #45489a;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #440124;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -111,7 +111,7 @@ p {
 }
 
 .blue-button a:hover {
-  background-color: #4e779e;
+  background-color: #014421;
   color: #fff;
 }
 
@@ -212,7 +212,7 @@ header {
   float: left;
   height: 100%;
   position: fixed;
-  background-color: #4e779e;
+  background-color: #014421;
   z-index: 10;
 }
 
@@ -221,7 +221,7 @@ header {
   width: 100%;
   height: 140px;
   line-height: 100px;
-  background-color: #4e779e;
+  background-color: #014421;
   padding: 20px;
   text-align: center;
 }
@@ -448,11 +448,11 @@ header {
 
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/rs3.jpg);
+  background-image: url(../img/rs1.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/rs1.jpg);
+  background-image: url(../img/rs2.jpg);
 }
 
 .Modern-Slider .item-3 .image {
