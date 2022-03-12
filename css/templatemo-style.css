@@ -36,13 +36,13 @@ p {
   transform: translateX(-50%);
 }
 
-.blog-item {
+.participants-item {
   text-align: left;
   line-height: 1.8;
   font-size: 15px;
 }
-.blog-item a{
-	color: #45489a;
+.participants-item a{
+	color: #014421;
 	font-weight: 700;
 }
 
@@ -63,7 +63,7 @@ p {
 .section-heading em {
   font-style: normal;
   font-weight: 700;
-  color: #45489a;
+  color: #014421;
 }
 
 .section-heading p {
@@ -78,7 +78,7 @@ p {
 .white-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #014421;
   text-transform: capitalize;
   background-color: #fff;
   display: inline-block;
@@ -91,14 +91,14 @@ p {
 }
 
 .white-button a:hover {
-  background-color: #45489a;
+  background-color: #014421;
   color: #fff;
 }
 
 .blue-button a {
   font-size: 13px;
   font-weight: 600;
-  color: #45489a;
+  color: #014421;
   text-transform: capitalize;
   background-color: #440124;
   display: inline-block;
@@ -120,7 +120,7 @@ p {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #014421;
   display: inline-block;
   height: 44px;
   line-height: 44px;
@@ -132,7 +132,7 @@ p {
 
 .accent-button a:hover {
   background-color: #fff;
-  color: #45489a;
+  color: #014421;
 }
 
 header {
@@ -339,7 +339,7 @@ header {
 }
 
 .sidebar-navigation .social-icons li a:hover {
-  color: #45489a;
+  color: #440124;
   /*color: #3e5f7e;*/
 }
 
@@ -502,9 +502,9 @@ header {
 }
 
 
-/* About Me Style */
+/* About Style */
 
-#aboutme {
+#about {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
@@ -512,20 +512,25 @@ header {
   background-color: #f4f4f4;
 }
 
-#aboutme .section-heading {
+#about p{
+  text-align: left;
+  font-size: 16px;
+}
+
+#about .section-heading {
   margin-right: 20%;
 }
 
-#aboutme .content-section {
+#about .content-section {
   display: inline-block;
   position: relative;
 }
 
-#aboutme .owl-dots {
+#about .owl-dots {
   margin-top: 40px;
 }
 
-#aboutme .owl-dots .owl-dot span  {
+#about .owl-dots .owl-dot span  {
   width: 12px;
   height: 12px;
   background-color: #cdcdcd!important;
@@ -534,30 +539,30 @@ header {
   margin: 0 3px;
 }
 
-#aboutme .owl-dots .active span {
-  background-color: #45489a!important;
+#about .owl-dots .active span {
+  background-color: #014421!important;
 }
 
-#aboutme .owl-dots button {
+#about .owl-dots button {
   outline: none;
 }
 
-#aboutme .owl-nav {
+#about .owl-nav {
   position: absolute;
   display: inline-block;
   top: -110px;
   right: 0;
 }
 
-#aboutme .owl-nav button:focus {
+#about .owl-nav button:focus {
   outline: none;
 }
 
-#aboutme .owl-nav .owl-prev span {
+#about .owl-nav .owl-prev span {
   margin-right: 10px;
 }
 
-#aboutme .owl-nav .owl-next span, #aboutme .owl-nav .owl-prev span {
+#about .owl-nav .owl-next span, #about .owl-nav .owl-prev span {
   outline: none;
   width: 50px;
   height: 50px;
@@ -570,27 +575,27 @@ header {
   transition: all 0.5s;
 }
 
-#aboutme .owl-nav span:hover {
-  background-color: #45489a;
+#about .owl-nav span:hover {
+  background-color: #014421;
   color: #fff;
 }
 
-#aboutme .item {
+#about .item {
   text-align: left;
   position: relative;
   z-index: 10;
 }
 
-#aboutme .item .image {
+#about .item .image {
   position: relative;
 }
 
-#aboutme .item .image img {
+#about .item .image img {
   width: 100%;
   overflow: hidden;
 }
 
-#aboutme .item .image .aboutme-button a {
+#about .item .image .about-button a {
   font-size: 13px;
   font-weight: 600;
   color: #fff;
@@ -610,12 +615,12 @@ header {
   opacity: 0;
 }
 
-#aboutme .item:hover .aboutme-button a {
+#about .item:hover .about-button a {
   bottom: 0;
   opacity: 1;
 }
 
-#aboutme .item .text-content {
+#about .item .text-content {
   padding-top: 20px;
   background-color: #f4f4f4;
   /*background-color: #fff;*/
@@ -623,7 +628,7 @@ header {
   z-index: 10;
 }
 
-#aboutme .item .text-content h4 {
+#about .item .text-content h4 {
   margin-top: 0px;
   margin-bottom: 5px;
   font-size: 21px;
@@ -632,7 +637,150 @@ header {
   letter-spacing: 0.5px;
 }
 
-#aboutme .item .text-content span {
+#about .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 12.5px;
+}
+/* committee Style */
+
+#committee{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #eee;
+  background-color: #f4f4f4;
+}
+
+#committee{
+  text-align: left;
+  font-size: 16px;
+}
+
+#committee .section-heading {
+  margin-right: 20%;
+}
+
+#committee .content-section {
+  display: inline-block;
+  position: relative;
+}
+
+#committee .owl-dots {
+  margin-top: 40px;
+}
+
+#committee .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+#committee .owl-dots .active span {
+  background-color: #014421!important;
+}
+
+#committee .owl-dots button {
+  outline: none;
+}
+
+#committee .owl-nav {
+  position: absolute;
+  display: inline-block;
+  top: -110px;
+  right: 0;
+}
+
+#committee .owl-nav button:focus {
+  outline: none;
+}
+
+#committee .owl-nav .owl-prev span {
+  margin-right: 10px;
+}
+
+#committee .owl-nav .owl-next span, #committee .owl-nav .owl-prev span {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 42px;
+  background-color: #eee;
+  color: #232323;
+  font-size: 42px;
+  transition: all 0.5s;
+}
+
+#committee .owl-nav span:hover {
+  background-color: #014421;
+  color: #fff;
+}
+
+#committee .item {
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+
+#committee .item .image {
+  position: relative;
+}
+
+#committee .item .image img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#committee .item .image .committee-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(69,72,154, 0.9);
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: 9;
+  bottom: -44px;
+  opacity: 0;
+}
+
+#committee .item:hover .committee-button a {
+  bottom: 0;
+  opacity: 1;
+}
+
+#committee .item .text-content {
+  padding-top: 20px;
+  background-color: #f4f4f4;
+  /*background-color: #fff;*/
+  position: relative;
+  z-index: 10;
+}
+
+#committee .item .text-content h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#committee .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -674,7 +822,7 @@ header {
 }
 
 #blogentries .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: #014421!important;
 }
 
 #blogentries .owl-dots button {
@@ -710,14 +858,14 @@ header {
 }
 
 #blogentries .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #014421;
   color: #fff;
 }
 
 #blogentries h2 {
   text-align: left;
   text-decoration: underline;
-  color: #45489a;
+  color: #014421;
   font-weight: 700;
   position: relative;
   z-index: 10;
@@ -749,7 +897,7 @@ header {
 
 #blogentries p em{
   text-align: left;
-  color: #45489a;
+  color: #014421;
   font-size: 15px;
   position: relative;
   z-index: 10;
@@ -763,7 +911,7 @@ header {
 }
 #blogentries a:hover{
   text-align: left;
-  color: #45489a;
+  color: #014421;
   position: relative;
   z-index: 10;
 }
@@ -865,7 +1013,7 @@ header {
 }
 
 #CV .owl-dots .active span {
-  background-color: #45489a!important;
+  background-color: #014421!important;
 }
 
 #CV .owl-dots button {
@@ -901,7 +1049,7 @@ header {
 }
 
 #CV .owl-nav span:hover {
-  background-color: #45489a;
+  background-color: #014421;
   color: #fff;
 }
 
@@ -994,34 +1142,39 @@ header {
 #projects .masonry .item img:hover {
   opacity: 0.5;
 }
-/* Pedagogy Style */
+/* itinerary Style */
 
-#pedagogy {
+#itinerary {
   text-align: left;
   background-color: #FFFFFF;
   padding: 100px 60px;
 }
 
-#pedagogy .section-heading {
+#itinerary .section-heading {
   margin-bottom: 30px;
   text-align: left;
 }
 
-#pedagogy .section-heading h1 {
+#itinerary .section-heading h1 {
   display: block;
   margin: 0px;
 }
 
-#pedagogy .section-heading p {
+#itinerary .section-heading p {
   position: relative;
   margin: 0px;
 }
 
-#pedagogy .accent-button {
+#itinerary .text-content ul li {
+	font-size: 18px;
+	line-height:1.9;
+}
+
+#itinerary .accent-button {
   margin-top: 30px;
 }
 
-.box-pedagogy{
+.box-itinerary{
   width: 100%;
   position: relative;
   margin-top: 30px;
@@ -1029,7 +1182,7 @@ header {
   overflow: hidden;
 }
 
-.box-pedagogy .bg-pedagogy{
+.box-itinerary .bg-itinerary{
   position: absolute;
   top: 0;
   left: 0;
@@ -1041,13 +1194,13 @@ header {
   z-index: 2;
 }
 
-.box-pedagogy .pedagogy-container{
+.box-itinerary .itinerary-container{
   position: relative;
   margin: 0;
   z-index: 1;
 }
 
-.box-pedagogy .bt-play {
+.box-itinerary .bt-play {
   position: absolute;
   top:50%;
   left:50%;
@@ -1063,7 +1216,7 @@ header {
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
-.box-pedagogy .bt-play:after {
+.box-itinerary .bt-play:after {
   content: '';
   position: absolute;
   left: 50%;
@@ -1077,17 +1230,17 @@ header {
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
-.box-pedagogy:hover .bt-play {
+.box-itinerary:hover .bt-play {
   transform: scale(1.1);
 }
 
-.box-pedagogy.open .bg-pedagogy{
+.box-itinerary.open .bg-itinerary{
   visibility: hidden;
   opacity: 0;
   -webkit-transition: all .6s .8s;
   transition: all .6s .8s;  
 }
-.box-pedagogy.open .pedagogy-container{
+.box-itinerary.open .itinerary-container{
   opacity: 1;
   -webkit-transition: all .6s .8s;
   transition: all .6s .8s;
@@ -1195,34 +1348,34 @@ header {
   transition: all .6s .8s;
 }
 
-/* Publication Style */
+/* Talk Titles Style */
 
-#publication {
+#talktitles {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
 }
 
-#publication .tabs {
+#talktitles .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
   height: 90px;
   width: 100%;
   background-color: #eee;
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #014421;
 }
 
-#publication .tabs li {
+#talktitles .tabs li {
   display: inline-block;
-  text-align: center;
+  text-align: left;
   width: 25%;
   float: left;
   margin: 0;
   padding: 0;
 }
 
-#publication .tabs a {
+#talktitles .tabs a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -1235,21 +1388,21 @@ header {
   transition: 0.5s;
 }
 
-#publication .tabs a:hover {
-  color: #45489a;
+#talktitles .tabs a:hover {
+  color: #014421;
 }
 
 
-#publication .tabs .active:hover {
+#talktitles .tabs .active:hover {
   color: #fff;
 }
 
-#publication .tabs .active {
-  background-color: #45489a;
+#talktitles .tabs .active {
+  background-color: #014421;
   color: #fff;
 }
 
-.tabgroup {
+#talktitles .tabgroup {
   background-color: #f4f4f4;
   padding: 20px 30px;
 }
@@ -1260,37 +1413,39 @@ header {
   clear:both;
 }
 
-#publication .tabgroup ul {
+#talktitles .tabgroup ul {
   padding: 0;
   margin: 0;
   list-style: none;
+  text-align: left;
 }
 
-#publication .tabgroup ul li {
+#talktitles .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
+  overflow: auto;
 }
 
-#publication .tabgroup ul li:last-child {
+#talktitles .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#publication .tabgroup ul li img {
+#talktitles .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#publication .tabgroup ul li .text-content {
+#talktitles .tabgroup ul li .text-content {
   display: inline;
 }
 
-#publication .item .text-content h4 {
+#talktitles .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -1298,34 +1453,36 @@ header {
   font-weight: 600;
   color: #232323;
   letter-spacing: 0.5px;
+  text-align: left;
 }
 
-#publication .item .text-content span {
+#talktitles .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
   color: #7a7a7a;
   letter-spacing: 0.5px;
   margin-bottom: 15px;
+  text-align: left;
 }
 
-#publication .item .text-content .accent-button {
+#talktitles .item .text-content .accent-button {
   margin-top: 25px;
 }
 
 
 
 
-/* Blog Style */
+/* Participants Style */
 
-#blog {
+#participants {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 80px;
   background-color: #f4f4f4;
 }
 
-#blog .tabs {
+#participants .tabs {
   list-style: none;
   margin: 0px;
   padding: 0px;
@@ -1333,10 +1490,10 @@ header {
   width: 100%;
   background-color: #f4f4f4;
   /*background-color: #eee;*/
-  border-bottom: 10px solid #45489a;
+  border-bottom: 10px solid #014421;
 }
 
-#blog .tabs li {
+#participants .tabs li {
   display: inline-block;
   background-color: #f4f4f4;
   text-align: center;
@@ -1346,7 +1503,7 @@ header {
   padding: 0;
 }
 
-#blog .tabs a {
+#participants .tabs a {
   display: block;
   text-align: center;
   background-color: #f4f4f4;
@@ -1360,17 +1517,17 @@ header {
   transition: 0.5s;
 }
 
-#blog .tabs a:hover {
-  color: #45489a;
+#participants .tabs a:hover {
+  color: #014421;
 }
 
 
-#blog .tabs .active:hover {
+#participants .tabs .active:hover {
   color: #fff;
 }
 
-#blog .tabs .active {
-  background-color: #45489a;
+#participants .tabs .active {
+  background-color: #014421;
   color: #fff;
 }
 
@@ -1386,13 +1543,14 @@ header {
   clear:both;
 }
 
-#blog .tabgroup ul {
+#participants .tabgroup ul {
+	text-align:left;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#blog .tabgroup ul li {
+#participants .tabgroup ul li {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
@@ -1400,23 +1558,23 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-#blog .tabgroup ul li:last-child {
+#participants .tabgroup ul li:last-child {
   border-bottom: none;
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
 
-#blog .tabgroup ul li img {
+#participants .tabgroup ul li img {
   float: left;
   margin-right: 30px;
   max-width: 100%;
   overflow: hidden;
 }
-#blog .tabgroup ul li .text-content {
+#participants .tabgroup ul li .text-content {
   display: inline;
 }
 
-#blog .item .text-content h4 {
+#participants .item .text-content h4 {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -1426,7 +1584,7 @@ header {
   letter-spacing: 0.5px;
 }
 
-#blog .item .text-content span {
+#participants .item .text-content span {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
@@ -1435,7 +1593,7 @@ header {
   margin-bottom: 15px;
 }
 
-#blog .item .text-content .accent-button {
+#participants .item .text-content .accent-button {
   margin-top: 25px;
 }
 
@@ -1490,7 +1648,7 @@ header {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #014421;
   display: inline-block;
   height: 44px;
   line-height: 24px;
@@ -1628,12 +1786,23 @@ header {
     position: relative;
   }
 
-  #aboutme {
+  #about {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #aboutme .owl-nav {
+  #about .owl-nav {
+    position: absolute;
+    display: inline-block;
+    top: -220px;
+    right: 0;
+  }
+  #committee {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #committee .owl-nav {
     position: absolute;
     display: inline-block;
     top: -220px;
@@ -1650,21 +1819,21 @@ header {
     padding-right: 15px;
   }
 
-  #blog {
+  #participants {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #blog .tabs a {
+  #participants .tabs a {
     font-size: 13px;
   }
 
-  #blog .tabgroup ul li img {
+  #participants .tabgroup ul li img {
     float: none;
     width: 100%;
     margin-bottom: 15px;
   }
-  #blog .tabgroup ul li .text-content {
+  #participants .tabgroup ul li .text-content {
     display: block;
   }
 
